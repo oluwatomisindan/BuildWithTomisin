@@ -16,3 +16,7 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [00:04:23.383] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1581291518655-9523bb99da91?q=80&w=2070&auto=format&fit=crop" 404
 [00:04:29.426] Browser WARN    Image with src "/images/tomisin.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:04:57.824] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1581291518655-9523bb99da91?q=80&w=2070&auto=format&fit=crop" 404
+[00:07:58.466] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1581291518655-9523bb99da91?q=80&w=2070&auto=format&fit=crop" 404
+[00:07:59.175] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1581291518655-9523bb99da91?q=80&w=2070&auto=format&fit=crop" 404
+[00:08:00.815] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1581291518655-9523bb99da91?q=80&w=2070&auto=format&fit=crop" 404
+[00:08:03.210] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1581291518655-9523bb99da91?q=80&w=2070&auto=format&fit=crop" 404
