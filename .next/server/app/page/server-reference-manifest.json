@@ -1,4 +1,20 @@
 {
-  "node": {},
+  "node": {
+    "4081ba01b44e835b31e6be9fd764ee63c60117c590": {
+      "workers": {
+        "app/page": {
+          "moduleId": 23631,
+          "async": false,
+          "exportedName": "sendEmail",
+          "filename": "app/actions/email-actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "exportedName": "sendEmail",
+      "filename": "app/actions/email-actions.ts"
+    }
+  },
   "edge": {}
 }
