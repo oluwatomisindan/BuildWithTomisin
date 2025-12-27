@@ -81,7 +81,7 @@ const BentoGrid = () => {
               className="flex justify-between items-center group/social hover:text-brand-blue transition-colors"
             >
                <Twitter className="w-6 h-6 text-[#1DA1F2] group-hover/social:scale-110 transition-transform" />
-               <span className="text-xs font-bold text-fg/40 group-hover/social:text-fg transition-colors">12k+</span>
+               <span className="text-sm font-bold text-fg/40 group-hover/social:text-fg transition-colors">12k+</span>
             </a>
             <a 
               href="https://www.youtube.com/@BuildwithTomisin" 
@@ -90,7 +90,7 @@ const BentoGrid = () => {
               className="flex justify-between items-center group/social hover:text-[#FF0000] transition-colors"
             >
                <Youtube className="w-6 h-6 text-[#FF0000] group-hover/social:scale-110 transition-transform" />
-               <span className="text-xs font-bold text-fg/40 group-hover/social:text-fg transition-colors">45k+</span>
+               <span className="text-sm font-bold text-fg/40 group-hover/social:text-fg transition-colors">45k+</span>
             </a>
             <a 
               href="https://web.facebook.com/profile.php?id=61579939246490" 
@@ -99,7 +99,7 @@ const BentoGrid = () => {
               className="flex justify-between items-center group/social hover:text-[#1877F2] transition-colors"
             >
                <Facebook className="w-6 h-6 text-[#1877F2] group-hover/social:scale-110 transition-transform" />
-               <span className="text-xs font-bold text-fg/40 group-hover/social:text-fg transition-colors">Connect</span>
+               <span className="text-sm font-bold text-fg/40 group-hover/social:text-fg transition-colors">Connect</span>
             </a>
           </div>
           <div className="mt-4 pt-4 border-t border-border text-center">

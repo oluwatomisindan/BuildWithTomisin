@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import { Twitter, Linkedin, Youtube, Facebook } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -21,9 +22,24 @@ const Footer = () => {
            <Link href="/contact" className="hover:text-fg transition-colors uppercase tracking-widest">Contact</Link>
         </div>
 
-        <div className="flex items-center gap-2">
-           <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-           <span className="text-[10px] uppercase tracking-widest text-fg/30 font-bold">System Status: Optimal</span>
+        <div className="flex items-center gap-4">
+           <a href="https://x.com/oluwatomi_sinnn" target="_blank" rel="noopener noreferrer" className="text-fg/40 hover:text-brand-blue transition-colors">
+              <Twitter className="w-5 h-5" />
+           </a>
+           <a href="https://www.linkedin.com/in/oluwatosin-daniel-adegoke-105804267/" target="_blank" rel="noopener noreferrer" className="text-fg/40 hover:text-brand-blue transition-colors">
+              <Linkedin className="w-5 h-5" />
+           </a>
+           <a href="https://www.youtube.com/@BuildwithTomisin" target="_blank" rel="noopener noreferrer" className="text-fg/40 hover:text-brand-blue transition-colors">
+              <Youtube className="w-5 h-5" />
+           </a>
+           <a href="https://web.facebook.com/profile.php?id=61579939246490" target="_blank" rel="noopener noreferrer" className="text-fg/40 hover:text-brand-blue transition-colors">
+              <Facebook className="w-5 h-5" />
+           </a>
+           <div className="w-px h-4 bg-border mx-2" />
+           <div className="flex items-center gap-2">
+              <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+              <span className="text-[10px] uppercase tracking-widest text-fg/30 font-bold">Optimal</span>
+           </div>
         </div>
       </div>
     </footer>

@@ -5,3 +5,38 @@
 [00:00:18.250] Browser WARN    Image with src "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:00:18.251] Browser WARN    Image with src "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=2070&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:00:18.251] Browser WARN    Image with src "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:10:08.058] Browser WARN    Image with src "/images/tomisin.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:10:08.058] Browser WARN    Image with src "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:10:08.058] Browser WARN    Image with src "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=2070&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:10:08.058] Browser WARN    Image with src "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:13:27.300] Browser WARN    Image with src "/images/InvoiceApp.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:13:27.300] Browser WARN    Image with src "/images/portfolio.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:13:27.300] Browser WARN    Image with src "/images/managementapp.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:13:27.300] Browser WARN    Image with src "/images/to-do_list.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:13:27.301] Browser WARN    Image with src "/images/InvoiceApp.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:13:27.301] Browser WARN    Image with src "/images/portfolio.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:13:27.301] Browser WARN    Image with src "/images/managementapp.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:13:27.301] Browser WARN    Image with src "/images/to-do_list.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:35.169] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:28.265] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:21:28.265] Browser ERROR   uncaughtError: ReferenceError: Twitter is not defined
+[00:21:28.266] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:21:28.267] Browser ERROR   uncaughtError: ReferenceError: Twitter is not defined
+[00:21:29.889] Server  ERROR   ⨯ ReferenceError: Twitter is not defined
+[00:21:30.146] Server  ERROR   ⨯ ReferenceError: Twitter is not defined
+[00:21:30.805] Browser ERROR   uncaughtError: ReferenceError: Twitter is not defined
+[00:21:31.527] Server  LOG     ✓ Compiled in 1047.1s
+[00:21:32.075] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:32.169] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:34.304] Browser ERROR   uncaughtError: ReferenceError: Twitter is not defined
+[00:21:34.305] Browser ERROR   uncaughtError: ReferenceError: Twitter is not defined
+[00:21:35.583] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:21:35.585] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:21:37.918] Server  LOG     ✓ Compiled in 5.7s
+[00:21:38.472] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:38.501] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:17.875] Browser WARN    Image with src "/images/tomisin.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:17.875] Browser WARN    Image with src "/images/InvoiceApp.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:17.876] Browser WARN    Image with src "/images/managementapp.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:18.015] Browser WARN    Image with src "/images/portfolio.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:18.015] Browser WARN    Image with src "/images/to-do_list.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes

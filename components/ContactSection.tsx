@@ -137,7 +137,7 @@ const SocialIcon = ({ icon, href, color }: { icon: React.ReactNode; href: string
   <motion.a
     href={href}
     whileHover={{ y: -5, backgroundColor: `${color}20`, borderColor: color }}
-    className="w-14 h-14 glass rounded-2xl flex items-center justify-center text-white/70 hover:text-white transition-all border border-white/5"
+    className="w-14 h-14 glass rounded-2xl flex items-center justify-center text-fg/50 hover:text-fg transition-all border border-border mt-2"
   >
     {icon}
   </motion.a>

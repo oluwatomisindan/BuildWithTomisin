@@ -8,68 +8,88 @@ __turbopack_context__.s([
 ]);
 const MOCK_PROJECTS = [
     {
-        slug: "lagos-fintech-dashboard",
-        title: "Lagos Fintech Dashboard",
-        description: "A comprehensive financial management system for Nigerian startups, featuring real-time transaction tracking and automated tax reports.",
-        fullDescription: "The Lagos Fintech Dashboard is a state-of-the-art financial management platform tailored for the unique needs of the Nigerian startup ecosystem. It bridges the gap between complex financial data and actionable insights, providing founders with a clear picture of their burn rate, revenue, and compliance status in real-time.",
+        slug: "ife-grand-resort-invoice",
+        title: "IGR Invoice App",
+        description: "A professional invoice generation and management system built for Ife Grand Resort.",
+        fullDescription: "The IGR Invoice App is a streamlined tool designed to handle invoicing for resort services. It allows for quick generation of professional invoices with custom fields and automated calculations, ensuring efficiency in financial documentation.",
         tags: [
-            "Next.js",
-            "Tailwind",
-            "Framer Motion"
+            "HTML",
+            "CSS",
+            "JavaScript"
         ],
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
-        link: "https://example.com/demo1",
-        github: "https://github.com/example/project1",
-        role: "Lead Frontend Engineer",
-        timeline: "3 Months (Q3 2024)",
+        image: "/images/InvoiceApp.png",
+        link: "https://ife-grand-resort.vercel.app",
+        role: "Frontend Developer",
+        timeline: "2024",
         features: [
-            "Real-time transaction monitoring with WebSocket integration",
-            "Automated tax calculation and report generation compliant with FIRS standards",
-            "Multi-currency support with real-time exchange rate updates",
-            "Interactive data visualizations powered by Recharts"
+            "Dynamic invoice generation",
+            "Print-ready PDF exports",
+            "Client and service management",
+            "Responsive design for mobile use"
         ]
     },
     {
-        slug: "e-learning-hub",
-        title: "E-Learning Hub",
-        description: "An interactive platform for tech students in Lagos to learn software architecture, with built-in sandbox and community forums.",
-        fullDescription: "E-Learning Hub is an educational platform designed to empower the next generation of software architects in Nigeria. It goes beyond static content, offering a hands-on learning experience through integrated coding sandboxes and collaborative forum features.",
+        slug: "hotel-management-system",
+        title: "Hotel Management App",
+        description: "A comprehensive solution for managing hotel operations, from bookings to staff assignments.",
+        fullDescription: "Built with Next.js and Prisma, this hotel management application provides a robust platform for modern hospitality businesses. It leverages Supabase for real-time data and secure storage, offering features like room status tracking and guest management.",
         tags: [
-            "React",
-            "Typescript",
-            "Node.js"
+            "Next.js",
+            "Prisma",
+            "Supabase",
+            "Tailwind"
         ],
-        image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=2070&auto=format&fit=crop",
-        link: "https://example.com/demo2",
+        image: "/images/managementapp.png",
+        link: "#",
         role: "Fullstack Developer",
-        timeline: "5 Months (2024)",
+        timeline: "Coming Soon",
         features: [
-            "Integrated code editor with real-time feedback",
-            "Progressive Web App (PWA) capabilities for offline learning",
-            "Community discussion boards with Markdown support",
-            "Gamified learning paths with certificates of completion"
+            "Real-time booking management",
+            "Role-based access control for staff",
+            "Automated reports and analytics",
+            "Integrated payment processing"
         ]
     },
     {
-        slug: "bwt-content-engine",
-        title: "BWT Content Engine",
-        description: "The proprietary tool used to orchestrate content across YouTube and Twitter, featuring automated schedule optimization.",
-        fullDescription: "BWT Content Engine is the backbone of Build With Tomisin's digital presence. It automates the complex task of multi-platform content distribution, using AI-driven insights to determine the optimal posting times and formats for maximum engagement.",
+        slug: "personal-portfolio",
+        title: "Personal Portfolio",
+        description: "My personal professional portfolio showcasing my skills, experience, and creative projects.",
+        fullDescription: "This portfolio is a reflection of my journey as a developer. Built with clean HTML, CSS, and modern JavaScript, it focuses on performance and a minimalist aesthetic to highlight my work effectively.",
         tags: [
-            "Next.js",
-            "API Route",
-            "AI"
+            "HTML",
+            "CSS",
+            "JavaScript"
         ],
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop",
-        link: "https://example.com/demo3",
-        github: "https://github.com/example/project3",
-        role: "System Architect / Developer",
-        timeline: "2 Months (Ongoing)",
+        image: "/images/portfolio.png",
+        link: "https://oluwatosina-portfolio.vercel.app/",
+        role: "Sole Developer",
+        timeline: "2024",
         features: [
-            "AI-powered content scheduling and optimization",
-            "Cross-platform API integration for Twitter and YouTube",
-            "Internal analytics dashboard for tracking content performance",
-            "Automated video processing and thumbnail generation"
+            "Smooth scroll navigation",
+            "Custom animation sequences",
+            "Project showcase with filtering",
+            "Optimized for SEO and speed"
+        ]
+    },
+    {
+        slug: "todo-list-app",
+        title: "Modern Todo List",
+        description: "A refined productivity tool for personal task management with a focus on simplicity.",
+        fullDescription: "This Todo List app demonstrates how essential tools can be both functional and beautiful. It provides a seamless experience for tracking daily tasks, featuring a clean UI and persistent data storage.",
+        tags: [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        image: "/images/to-do_list.png",
+        link: "https://to-do-list-two-theta-61.vercel.app/",
+        role: "Frontend Developer",
+        timeline: "2024",
+        features: [
+            "Category-based task sorting",
+            "Drag-and-drop prioritization",
+            "Dark mode support",
+            "Local storage persistence"
         ]
     }
 ];
@@ -109,12 +129,12 @@ const ProjectCard = ({ slug, title, tags, image, link, github, description })=>{
         viewport: {
             once: true
         },
-        className: "group relative bg-glass border border-border rounded-2xl overflow-hidden hover:border-brand-blue/50 transition-colors",
+        className: "group relative bg-glass border border-border rounded-xl overflow-hidden hover:border-brand-blue/50 transition-colors w-full",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                 href: `/projects/${slug}`,
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "relative aspect-video overflow-hidden",
+                    className: "relative aspect-16/10 overflow-hidden",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                             src: image,
@@ -145,12 +165,12 @@ const ProjectCard = ({ slug, title, tags, image, link, github, description })=>{
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "p-6",
+                className: "p-4",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex gap-2 mb-4 flex-wrap",
-                        children: tags.map((tag)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-[10px] uppercase tracking-widest px-2 py-1 rounded-md bg-fg/10 text-fg/60 font-semibold",
+                        className: "flex gap-2 mb-3 flex-wrap",
+                        children: tags.slice(0, 3).map((tag)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-[9px] uppercase tracking-widest px-1.5 py-0.5 rounded-md bg-fg/10 text-fg/60 font-bold",
                                 children: tag
                             }, tag, false, {
                                 fileName: "[project]/components/ProjectCard.tsx",
@@ -165,7 +185,7 @@ const ProjectCard = ({ slug, title, tags, image, link, github, description })=>{
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         href: `/projects/${slug}`,
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                            className: "text-xl font-bold mb-2 group-hover:text-brand-blue transition-colors text-fg",
+                            className: "text-lg font-bold mb-1 group-hover:text-brand-blue transition-colors text-fg line-clamp-1",
                             children: title
                         }, void 0, false, {
                             fileName: "[project]/components/ProjectCard.tsx",
@@ -178,7 +198,7 @@ const ProjectCard = ({ slug, title, tags, image, link, github, description })=>{
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-sm text-fg/50 mb-6 line-clamp-2 leading-relaxed",
+                        className: "text-xs text-fg/50 mb-4 line-clamp-2 leading-relaxed h-8",
                         children: description
                     }, void 0, false, {
                         fileName: "[project]/components/ProjectCard.tsx",
@@ -186,21 +206,21 @@ const ProjectCard = ({ slug, title, tags, image, link, github, description })=>{
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex items-center gap-4",
+                        className: "flex items-center gap-3",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: link,
                                 target: "_blank",
                                 rel: "noopener noreferrer",
-                                className: "flex items-center gap-2 text-sm font-bold text-fg hover:text-brand-blue transition-colors",
+                                className: "flex items-center gap-1.5 text-xs font-bold text-fg hover:text-brand-blue transition-colors",
                                 children: [
-                                    "Live Demo ",
+                                    "Demo ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$external$2d$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ExternalLink$3e$__["ExternalLink"], {
-                                        className: "w-4 h-4"
+                                        className: "w-3 h-3"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ProjectCard.tsx",
                                         lineNumber: 62,
-                                        columnNumber: 23
+                                        columnNumber: 18
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
@@ -212,11 +232,11 @@ const ProjectCard = ({ slug, title, tags, image, link, github, description })=>{
                                 href: github,
                                 target: "_blank",
                                 rel: "noopener noreferrer",
-                                className: "flex items-center gap-2 text-sm font-bold text-fg/50 hover:text-fg transition-colors",
+                                className: "flex items-center gap-1.5 text-xs font-bold text-fg/50 hover:text-fg transition-colors",
                                 children: [
                                     "Code ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$github$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Github$3e$__["Github"], {
-                                        className: "w-4 h-4"
+                                        className: "w-3 h-3"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ProjectCard.tsx",
                                         lineNumber: 71,
@@ -241,7 +261,7 @@ const ProjectCard = ({ slug, title, tags, image, link, github, description })=>{
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute inset-0 border-2 border-brand-blue/0 group-hover:border-brand-blue/20 rounded-2xl pointer-events-none transition-all"
+                className: "absolute inset-0 border-2 border-brand-blue/0 group-hover:border-brand-blue/20 rounded-xl pointer-events-none transition-all"
             }, void 0, false, {
                 fileName: "[project]/components/ProjectCard.tsx",
                 lineNumber: 78,
@@ -614,21 +634,105 @@ const Footer = ()=>{
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex items-center gap-2",
+                    className: "flex items-center gap-4",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "w-2 h-2 rounded-full bg-green-500 animate-pulse"
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                            href: "https://x.com/oluwatomi_sinnn",
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            className: "text-fg/40 hover:text-brand-blue transition-colors",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Twitter, {
+                                className: "w-5 h-5"
+                            }, void 0, false, {
+                                fileName: "[project]/components/Footer.tsx",
+                                lineNumber: 26,
+                                columnNumber: 15
+                            }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/components/Footer.tsx",
                             lineNumber: 25,
                             columnNumber: 12
                         }, ("TURBOPACK compile-time value", void 0)),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "text-[10px] uppercase tracking-widest text-fg/30 font-bold",
-                            children: "System Status: Optimal"
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                            href: "https://www.linkedin.com/in/oluwatosin-daniel-adegoke-105804267/",
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            className: "text-fg/40 hover:text-brand-blue transition-colors",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Linkedin, {
+                                className: "w-5 h-5"
+                            }, void 0, false, {
+                                fileName: "[project]/components/Footer.tsx",
+                                lineNumber: 29,
+                                columnNumber: 15
+                            }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/components/Footer.tsx",
-                            lineNumber: 26,
+                            lineNumber: 28,
+                            columnNumber: 12
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                            href: "https://www.youtube.com/@BuildwithTomisin",
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            className: "text-fg/40 hover:text-brand-blue transition-colors",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Youtube, {
+                                className: "w-5 h-5"
+                            }, void 0, false, {
+                                fileName: "[project]/components/Footer.tsx",
+                                lineNumber: 32,
+                                columnNumber: 15
+                            }, ("TURBOPACK compile-time value", void 0))
+                        }, void 0, false, {
+                            fileName: "[project]/components/Footer.tsx",
+                            lineNumber: 31,
+                            columnNumber: 12
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                            href: "https://web.facebook.com/profile.php?id=61579939246490",
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            className: "text-fg/40 hover:text-brand-blue transition-colors",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Facebook, {
+                                className: "w-5 h-5"
+                            }, void 0, false, {
+                                fileName: "[project]/components/Footer.tsx",
+                                lineNumber: 35,
+                                columnNumber: 15
+                            }, ("TURBOPACK compile-time value", void 0))
+                        }, void 0, false, {
+                            fileName: "[project]/components/Footer.tsx",
+                            lineNumber: 34,
+                            columnNumber: 12
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "w-px h-4 bg-border mx-2"
+                        }, void 0, false, {
+                            fileName: "[project]/components/Footer.tsx",
+                            lineNumber: 37,
+                            columnNumber: 12
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex items-center gap-2",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "w-2 h-2 rounded-full bg-green-500 animate-pulse"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Footer.tsx",
+                                    lineNumber: 39,
+                                    columnNumber: 15
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-[10px] uppercase tracking-widest text-fg/30 font-bold",
+                                    children: "Optimal"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Footer.tsx",
+                                    lineNumber: 40,
+                                    columnNumber: 15
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/Footer.tsx",
+                            lineNumber: 38,
                             columnNumber: 12
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
@@ -725,8 +829,8 @@ const ProjectsPage = ()=>{
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-xl text-fg/50 max-w-2xl font-medium leading-relaxed",
-                                children: "A comprehensive look at the systems and stories I've built. From fintech dashboards to content orchestration engines."
+                                className: "text-xl text-fg/50 font-medium leading-relaxed max-w-2xl",
+                                children: "A comprehensive look at the systems and solutions I've built. From complex management applications to elegant personal tools."
                             }, void 0, false, {
                                 fileName: "[project]/app/projects/page.tsx",
                                 lineNumber: 30,

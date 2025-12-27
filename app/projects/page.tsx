@@ -27,8 +27,8 @@ const ProjectsPage = () => {
             <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" /> Back to home
           </Link>
           <h1 className="text-5xl md:text-8xl font-black mb-8 italic text-fg">All projects</h1>
-          <p className="text-xl text-fg/50 max-w-2xl font-medium leading-relaxed">
-            A comprehensive look at the systems and stories I've built. From fintech dashboards to content orchestration engines.
+          <p className="text-xl text-fg/50 font-medium leading-relaxed max-w-2xl">
+            A comprehensive look at the systems and solutions I've built. From complex management applications to elegant personal tools.
           </p>
         </motion.div>
 
