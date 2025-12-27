@@ -85,10 +85,10 @@ const HeroSection = () => {
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
               
-              <button className="glass text-fg px-10 py-5 rounded-2xl font-black flex items-center gap-3 hover:bg-glass-hover-bg transition-all hover:-translate-y-1 active:scale-95">
+              <Link href="/content" className="glass text-fg px-10 py-5 rounded-2xl font-black flex items-center gap-3 hover:bg-glass-hover-bg transition-all hover:-translate-y-1 active:scale-95">
                 Content Hub
                 <Play className="w-5 h-5 fill-current" />
-              </button>
+              </Link>
             </motion.div>
           </div>
 

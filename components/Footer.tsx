@@ -15,10 +15,10 @@ const Footer = () => {
         </div>
 
         <div className="flex gap-8 text-sm font-bold text-fg/40">
-           <Link href="#work" className="hover:text-fg transition-colors uppercase tracking-widest">Work</Link>
-           <Link href="#about" className="hover:text-fg transition-colors uppercase tracking-widest">About</Link>
-           <Link href="#content" className="hover:text-fg transition-colors uppercase tracking-widest">Legal</Link>
-           <Link href="#contact" className="hover:text-fg transition-colors uppercase tracking-widest">Contact</Link>
+            <Link href="/projects" className="hover:text-fg transition-colors uppercase tracking-widest">Work</Link>
+           <Link href="/about" className="hover:text-fg transition-colors uppercase tracking-widest">About</Link>
+           <Link href="/content" className="hover:text-fg transition-colors uppercase tracking-widest">Content</Link>
+           <Link href="/contact" className="hover:text-fg transition-colors uppercase tracking-widest">Contact</Link>
         </div>
 
         <div className="flex items-center gap-2">

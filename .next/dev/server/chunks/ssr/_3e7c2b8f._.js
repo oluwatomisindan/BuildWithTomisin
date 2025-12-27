@@ -39,7 +39,7 @@ const MOCK_PROJECTS = [
             "Typescript",
             "Node.js"
         ],
-        image: "https://images.unsplash.com/photo-1581291518655-9523bb99da91?q=80&w=2070&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=2070&auto=format&fit=crop",
         link: "https://example.com/demo2",
         role: "Fullstack Developer",
         timeline: "5 Months (2024)",
@@ -426,7 +426,7 @@ const Navbar = ()=>{
                     className: "hidden md:flex items-center gap-10",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(NavLink, {
-                            href: "#work",
+                            href: "/projects",
                             children: "Work"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
@@ -434,7 +434,7 @@ const Navbar = ()=>{
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(NavLink, {
-                            href: "#about",
+                            href: "/about",
                             children: "About"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
@@ -442,7 +442,7 @@ const Navbar = ()=>{
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(NavLink, {
-                            href: "#content",
+                            href: "/content",
                             children: "Content"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
@@ -463,7 +463,8 @@ const Navbar = ()=>{
                             lineNumber: 28,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                            href: "/contact",
                             className: "bg-brand-blue hover:bg-brand-blue/90 text-white px-5 py-2 md:px-6 md:py-2 rounded-full font-medium transition-all hover:scale-105 active:scale-95 shadow-lg shadow-brand-blue/20 whitespace-nowrap",
                             children: "Let's Talk"
                         }, void 0, false, {
@@ -571,16 +572,16 @@ const Footer = ()=>{
                     className: "flex gap-8 text-sm font-bold text-fg/40",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            href: "#work",
+                            href: "/projects",
                             className: "hover:text-fg transition-colors uppercase tracking-widest",
                             children: "Work"
                         }, void 0, false, {
                             fileName: "[project]/components/Footer.tsx",
                             lineNumber: 18,
-                            columnNumber: 12
+                            columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            href: "#about",
+                            href: "/about",
                             className: "hover:text-fg transition-colors uppercase tracking-widest",
                             children: "About"
                         }, void 0, false, {
@@ -589,16 +590,16 @@ const Footer = ()=>{
                             columnNumber: 12
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            href: "#content",
+                            href: "/content",
                             className: "hover:text-fg transition-colors uppercase tracking-widest",
-                            children: "Legal"
+                            children: "Content"
                         }, void 0, false, {
                             fileName: "[project]/components/Footer.tsx",
                             lineNumber: 20,
                             columnNumber: 12
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            href: "#contact",
+                            href: "/contact",
                             className: "hover:text-fg transition-colors uppercase tracking-widest",
                             children: "Contact"
                         }, void 0, false, {

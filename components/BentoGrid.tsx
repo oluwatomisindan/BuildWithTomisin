@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Twitter, Youtube, MapPin, Cpu, Layout, Smartphone, Globe } from "lucide-react";
+import { Twitter, Youtube, MapPin, Cpu, Layout, Smartphone, Globe, Facebook } from "lucide-react";
 
 const BentoGrid = () => {
   const techStack = [
@@ -73,16 +73,37 @@ const BentoGrid = () => {
            transition={{ delay: 0.2 }}
            className="glass rounded-3xl p-8 flex flex-col justify-between text-fg"
         >
-          <div className="flex justify-between items-start mb-4">
-             <Twitter className="w-6 h-6 text-[#1DA1F2]" />
-             <span className="text-xs font-bold text-fg/40">12k+</span>
-          </div>
-          <div className="flex justify-between items-end">
-             <Youtube className="w-6 h-6 text-[#FF0000]" />
-             <span className="text-xs font-bold text-fg/40">45k+</span>
+          <div className="space-y-4">
+            <a 
+              href="https://x.com/oluwatomi_sinnn" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex justify-between items-center group/social hover:text-brand-blue transition-colors"
+            >
+               <Twitter className="w-6 h-6 text-[#1DA1F2] group-hover/social:scale-110 transition-transform" />
+               <span className="text-xs font-bold text-fg/40 group-hover/social:text-fg transition-colors">12k+</span>
+            </a>
+            <a 
+              href="https://www.youtube.com/@BuildwithTomisin" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex justify-between items-center group/social hover:text-[#FF0000] transition-colors"
+            >
+               <Youtube className="w-6 h-6 text-[#FF0000] group-hover/social:scale-110 transition-transform" />
+               <span className="text-xs font-bold text-fg/40 group-hover/social:text-fg transition-colors">45k+</span>
+            </a>
+            <a 
+              href="https://web.facebook.com/profile.php?id=61579939246490" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex justify-between items-center group/social hover:text-[#1877F2] transition-colors"
+            >
+               <Facebook className="w-6 h-6 text-[#1877F2] group-hover/social:scale-110 transition-transform" />
+               <span className="text-xs font-bold text-fg/40 group-hover/social:text-fg transition-colors">Connect</span>
+            </a>
           </div>
           <div className="mt-4 pt-4 border-t border-border text-center">
-             <span className="text-xs uppercase tracking-widest text-fg/40">Followers</span>
+             <span className="text-xs uppercase tracking-widest text-fg/40">Keep in Touch</span>
           </div>
         </motion.div>
       </div>

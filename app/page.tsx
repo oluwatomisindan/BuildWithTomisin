@@ -1,3 +1,4 @@
+// Trigger re-compilation
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import BentoGrid from "@/components/BentoGrid";

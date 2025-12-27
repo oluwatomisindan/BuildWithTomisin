@@ -37,7 +37,7 @@ export const MOCK_PROJECTS: Project[] = [
     description: "An interactive platform for tech students in Lagos to learn software architecture, with built-in sandbox and community forums.",
     fullDescription: "E-Learning Hub is an educational platform designed to empower the next generation of software architects in Nigeria. It goes beyond static content, offering a hands-on learning experience through integrated coding sandboxes and collaborative forum features.",
     tags: ["React", "Typescript", "Node.js"],
-    image: "https://images.unsplash.com/photo-1581291518655-9523bb99da91?q=80&w=2070&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=2070&auto=format&fit=crop",
     link: "https://example.com/demo2",
     role: "Fullstack Developer",
     timeline: "5 Months (2024)",
